@@ -1,0 +1,33 @@
+{
+  "name": "as-queue",
+  "version": "0.1.0",
+  "description": "assemblyscript queue",
+  "author": "yjhmelody <yjh465402634@gmail.com>",
+  "license": "MIT",
+  "main": "index.ts",
+  "keywords": [
+    "assemblyscript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:yjhmelody/as-collections"
+  },
+  "scripts": {
+    "checks": "asc ./assembly --noEmit --measure",
+    "test": "asp --verbose",
+    "test:summary": "asp --summary"
+  },
+  "devDependencies": {
+    "@as-pect/assembly": "^6.1",
+    "@as-pect/cli": "^6.1",
+    "@as-pect/core": "^6.1",
+    "assemblyscript": "^0.18"
+  },
+  "files": [
+    "LICENCE",
+    "index.ts",
+    "assembly/",
+    "README.md",
+    "package.json"
+  ]
+}

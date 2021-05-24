@@ -1,0 +1,43 @@
+{
+  "name": "as-collections",
+  "version": "0.1.0",
+  "description": "assemblyscript collections",
+  "author": "yjhmelody <yjh465402634@gmail.com>",
+  "license": "MIT",
+  "main": "index.ts",
+  "keywords": [
+    "assemblyscript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:yjhmelody/as-collections"
+  },
+  "workspaces": [
+    "collections/*"
+  ],
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "checks": "yarn workspaces run checks",
+    "test": "yarn workspaces run test",
+    "test:summary": "yarn workspaces run test:summary",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s"
+  },
+  "devDependencies": {
+    "@as-pect/assembly": "^6.1",
+    "@as-pect/cli": "^6.1",
+    "@as-pect/core": "^6.1",
+    "@typescript-eslint/eslint-plugin": "4.22",
+    "@typescript-eslint/parser": "4.22",
+    "assemblyscript": "^0.18",
+    "eslint": "7.25",
+    "typescript": "4.2"
+  },
+  "files": [
+    "LICENCE",
+    "index.ts",
+    "collections/",
+    "README.md",
+    "package.json"
+  ]
+}
