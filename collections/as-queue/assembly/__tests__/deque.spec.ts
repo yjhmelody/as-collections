@@ -16,9 +16,16 @@ describe("Queue", () => {
             expect(q.peekBack()).toBe(i);
         }
         expect(q.length).toBe(10);
+
+        {
+            expect(() => {
+                const q = new Deque<i32>();
+                q.peekBack();
+            }).toThrow("peekBack should panic");
+        }
     });
 
-    it("pekkFront", () => {
+    it("peekFront", () => {
         const q = new Deque<i32>();
         for (let i = 0; i < 10; i++) {
             expect(q.length).toBe(i);
@@ -26,6 +33,13 @@ describe("Queue", () => {
             expect(q.peekFront()).toBe(i);
         }
         expect(q.length).toBe(10);
+
+        {
+            expect(() => {
+                const q = new Deque<i32>();
+                q.peekFront();
+            }).toThrow("peekFront should panic");
+        }
     });
 
     it("pushBack", () => {
