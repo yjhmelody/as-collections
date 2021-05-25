@@ -1,4 +1,4 @@
-import { Deque } from "../index";
+import { Deque } from "../deque";
 
 describe("Queue", () => {
     it("offsetof", () => {
@@ -88,6 +88,16 @@ describe("Queue", () => {
                 expect(k).toBe(9 - i);
             }
         }
+    });
+
+    it("contains", () => {
+        const q = new Deque<i32>();
+        for (let i = 0; i < 10; i++) {
+            q.pushBack(i);
+        }
+
+        expect(q.contains(0)).toBe(true);
+        expect(q.contains(-1)).toBe(false);
     });
 
     it("map", () => {
