@@ -21,7 +21,7 @@
     "@as-pect/assembly": "^6.1",
     "@as-pect/cli": "^6.1",
     "@as-pect/core": "^6.1",
-    "assemblyscript": "^0.18"
+    "assemblyscript": "^0.19"
   },
   "files": [
     "LICENCE",
