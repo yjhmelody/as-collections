@@ -1,7 +1,7 @@
 {
-  "name": "@yjhmelody/as-queue",
+  "name": "@yjhmelody/as-map",
   "version": "0.0.1",
-  "description": "assemblyscript queue",
+  "description": "assemblyscript map",
   "author": "yjhmelody <yjh465402634@gmail.com>",
   "license": "MIT",
   "main": "index.ts",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@as-pect/cli": "^6.2",
-    "assemblyscript": "^0.19"
+    "assemblyscript": "^0.9"
   },
   "files": [
     "LICENCE",
