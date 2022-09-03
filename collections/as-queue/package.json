@@ -20,7 +20,7 @@
   "devDependencies": {
     "@as-pect/assembly": "^6.1",
     "@as-pect/cli": "^6.1",
-    "@as-pect/core": "^6.1",
+    "@as-pect/core": "^7.0",
     "assemblyscript": "^0.19"
   },
   "files": [
