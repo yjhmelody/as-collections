@@ -18,7 +18,7 @@
     "test:summary": "asp --summary"
   },
   "devDependencies": {
-    "@as-pect/assembly": "^7.0",
+    "@as-pect/assembly": "^8.0",
     "@as-pect/cli": "^6.1",
     "@as-pect/core": "^7.0",
     "assemblyscript": "^0.19"
